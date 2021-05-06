@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24.001" viewBox="0 0 24 24.001">
+    <g>
+        <path fill="#717171" d="M2 0h16a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2z" transform="translate(-31 -896) translate(33 898)"/>
+        <g fill="none">
+            <path d="M8.25 0H22a2 2 0 0 1 2 2v14.083c0-.167-8.083 8-8.083 7.917H2a2 2 0 0 1-2-2V7.917C.093 7.755 8.167.083 8.25 0z" transform="translate(-31 -896) translate(31 896)"/>
+            <path fill="#cfcfcf" d="M8.65 1l-.51.487C6.572 2.98 2.121 7.217 1 8.323V22c0 .551.449 1 1 1h13.526c.504-.49 1.666-1.647 2.715-2.691 1.11-1.106 2.37-2.359 3.34-3.315.672-.66 1.112-1.093 1.419-1.376V2c0-.551-.449-1-1-1H8.65m-.4-1H22c1.105 0 2 .895 2 2v14.083c0-.001 0-.002-.002-.002-.16 0-8 7.92-8.08 7.92L15.916 24H2c-1.105 0-2-.895-2-2V7.917C.093 7.755 8.167.083 8.25 0z" transform="translate(-31 -896) translate(31 896)"/>
+        </g>
+        <text fill="#fff" font-family="Montserrat-SemiBold, Montserrat" font-size="10px" font-weight="600" transform="translate(-31 -896) translate(40 911.5)">
+            <tspan x="0" y="0">2</tspan>
+        </text>
+    </g>
+</svg>

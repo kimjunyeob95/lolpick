@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="20" viewBox="0 0 24 20">
+    <defs>
+        <style>
+            .cls-1{fill:#d0a85c}
+        </style>
+    </defs>
+    <g id="icon" transform="translate(-197.854 -23.692)">
+        <path id="패스_69" d="M212.875 43.043l-2.049 2.649-1.993-2.649.664-13.819h2.769z" class="cls-1" transform="translate(-1 -2)"/>
+        <g id="그룹_125" transform="translate(197.854 26.707)">
+            <g id="그룹_123">
+                <path id="패스_70" d="M202.5 33.825h5.012l.325-4.187a2.47 2.47 0 0 0-2.445-2.479h-7.524a2.429 2.429 0 0 0 1.355 2.543h5.349l-.138 1.6h-4.569a3.2 3.2 0 0 0 2.635 2.523z" class="cls-1" transform="translate(-197.854 -27.159)"/>
+            </g>
+            <g id="그룹_124" transform="translate(14.015)">
+                <path id="패스_71" d="M219.208 33.825H214.2l-.326-4.187a2.47 2.47 0 0 1 2.446-2.479h7.524a2.429 2.429 0 0 1-1.355 2.543h-5.349l.138 1.6h4.569a3.2 3.2 0 0 1-2.639 2.523z" class="cls-1" transform="translate(-213.87 -27.159)"/>
+            </g>
+        </g>
+        <path id="패스_72" d="M210.913 27.855l2.577-2.645-.906-1.518h-3.346l-1.02 1.518 2.69 2.645z" class="cls-1" transform="translate(-1)"/>
+    </g>
+</svg>

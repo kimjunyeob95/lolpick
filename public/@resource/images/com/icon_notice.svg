@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="icon_norice" width="15" height="15" viewBox="0 0 15 15">
+    <defs>
+        <style>
+            .cls-2{fill:#dcb067}
+        </style>
+    </defs>
+    <g id="사각형_83" fill="none" stroke="#dcb067">
+        <rect width="15" height="15" stroke="none" rx="7.5"/>
+        <rect width="14" height="14" x=".5" y=".5" rx="7"/>
+    </g>
+    <path id="사각형_84" d="M0 0H1V5H0z" class="cls-2" transform="translate(7 4)"/>
+    <path id="사각형_85" d="M0 0H1V1H0z" class="cls-2" transform="translate(7 10)"/>
+</svg>

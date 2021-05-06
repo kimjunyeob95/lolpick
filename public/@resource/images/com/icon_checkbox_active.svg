@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <g>
+        <g stroke="#dcb067">
+            <g fill="#353742" transform="translate(-15 -274) translate(15 274)">
+                <rect width="20" height="20" stroke="none" rx="2"/>
+                <rect width="19" height="19" x=".5" y=".5" fill="none" rx="1.5"/>
+            </g>
+            <path fill="none" stroke-width="2px" d="M1445.837 4509.863l3.527 3.479 6.519-6.509" transform="translate(-15 -274) translate(-1425.417 -4226.089)"/>
+        </g>
+    </g>
+</svg>

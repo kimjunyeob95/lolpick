@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="29" height="23.12" viewBox="0 0 29 23.12">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#fff;stroke-miterlimit:10}
+        </style>
+    </defs>
+    <g id="btn_store" transform="translate(-139.234 -13.504)">
+        <rect id="사각형_63" width="28" height="16.539" class="cls-1" rx="1.548" transform="translate(139.734 19.585)"/>
+        <path id="선_13" fill="none" stroke="#fff" stroke-dasharray="2 2" stroke-miterlimit="10" d="M0 0L0 15.977" transform="translate(146.994 20.013)"/>
+        <path id="패스_97" d="M151.327 19.6l8.755-5.2a1.894 1.894 0 0 1 2.577.581l2.857 4.661" class="cls-1"/>
+    </g>
+</svg>

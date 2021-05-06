@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+button 									{
+	-webkit-appearance:none;
+	border:0 none;
+	font-family: inherit;
+}
+button:focus,
+a:focus									{outline-color: transparent;outline-style: none;}
+.btn 									{display: inline-block;text-align:center;vertical-align: middle; border: 0 none; outline: none;cursor: pointer;background:transparent;
+	box-sizing:border-box; -o-box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;
+}
+
+a.btn									{text-decoration:none}
+input.btn,
+button.btn								{overflow:visible;margin:0;background-color:transparent;}
+a.btn									{text-decoration:none}
+
+/* button size */
+.btn:not(.edge):not(.round){-webkit-border-radius: 0.533vw; border-radius: 0.533vw;}
+/*24px 현재까지 디자인에 없음
+.btn.small{height: 1.5rem; line-height: calc(1.5rem - 2px); font-size: .75rem; padding: 0 .4rem;}
+*/
+
+/*28px*/.btn.medium{min-width:18.667vw; padding: 0 3vw; height: 7.467vw; line-height: 7.467vw; font-size: 3.200vw;}
+/*36px*/.btn.medium-x{padding: 0 5.333vw; height: 9.6vw; line-height: 9.6vw; font-size: 3.2vw;}
+/*40px*/.btn.medium-2x{height: 10.667vw;line-height: 10.667vw;font-size: 3.733vw;}
+/*50px*/.btn.large{height: 13.333vw; line-height: 13.333vw; font-size: 3.200vw;}
+.btn.large.full{font-size: 3.733vw;}
+/* 공통 위해 full 로 뺌*/
+/*56px edge*/.btn.large-x{display: block; width: 100%; height: 13.867vw; font-size: 3.733vw;}
+/*60px edge & normal */.btn.large-2x{height: 16vw;}
+/*60px edge */.btn.large-2x:not(.full){width:15.467vw; font-size: 2.667vw}
+.btn.full{display: block; width: 100%;}
+.btn.large-2x.full{font-size: 3.733vw; line-height: 16vw; -webkit-border-radius: 0; border-radius: 0;}
+
+/* round & border 등 사이즈에 영향을 주는 경우 사이즈별로 재정의 필요 */
+
+.btn.medium-x.r-bdr{line-height: calc(9.6vw - 2px); padding: 0 5.333vw; border-radius: 4.8vw}
+.btn.round{-webkit-border-radius:16vw; border-radius: 16vw;}
+.btn.round{min-width: 27.733vw;}
+
+/* edge */
+.btn.edge{position:relative; overflow: hidden;}
+.btn.edge .hexagon{position: absolute; background-color: var(--sand); z-index: -1;
+	-webkit-transform: rotate(45deg) skewY(-45deg);
+	-ms-transform: rotate(45deg) skewY(-45deg);
+	transform: rotate(45deg) skewY(-45deg);
+	z-index: 1;
+}
+.btn.edge.large-x .hexagon{top: -21%; left: 12%; width: 76%; height: 142%;}
+.btn.edge.large-2x .hexagon{top: -21%; left: -10%; width: 120%; height: 142%;}
+.btn.edge > span{box-sizing:border-box; -o-box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;}
+.btn.edge > span{position: relative;display:block; width: 100%; height: 100%; line-height: inherit; border:1px solid var(--white); color: var(--white); border-radius: 0.533vw;z-index: 2;}
+.btn.edge > .hexagon.dark {background-color: var(--charcoal-grey-2);}
+.btn.edge > .hexagon.dark + span{border-color:var(--desert); color:var(--desert);}
+.btn.edge > .hexagon.white {background-color: var(--charcoal-grey-2);color:var(--white);;}
+.btn.edge > .hexagon.white + span{border-color:var(--white); color:var(--white);}
+.btn.edge.large-x{padding:1.067vw;}
+.btn.edge.large-2x{padding:0.800vw;}
+.btn.edge.large-x > span{line-height: calc(14.933vw - 2.267vw);}
+.btn.edge.large-2x > span{line-height: calc(16vw - (1.600vw + 2px))}
+
+/* button color */
+.btn.black{background-color:var(--black);color:var(--white)}
+.btn.dark{background-color:var(--charcoal-grey);color:var(--white)}
+.btn.grey{background-color: #363b47;color: #ececec;}
+.btn.dark2{background-color:var(--dark-2);color:var(--white)} /* 있어야 할까? */
+.btn.gold{background-color:var(--desert);color:var(--white)}
+.btn.bdr-grey{box-shadow: 0 0 0 1px var(--charcoal-grey-3); color: var(--white); background-color: var(--dark);}
+.btn.bdr-sand{box-shadow: 0 0 0 1px var(--sand); color: var(--sand); background-color: var(--dark);}
+
+
+/* btn disabled */
+.btn.disabled:not(.edge),
+.btn:not(.edge)[disabled] {opacity: .3}
+.btn.edge.disabled,
+.btn.edge[disabled]{color: var(--white);}
+.btn.edge.disabled > .hexagon,
+.btn.edge[disabled] > .hexagon{background-color: var(--charcoal-grey-3);}
+.btn.edge[disabled] > span{border-color: rgba(255, 255, 255, .5);}
+
+
+.btn.js-footer-skip{position:fixed;bottom: -22.133vw; left:50%; width: 27.733vw; height: 10.667vw; line-height: 10.667vw; font-size: 3.733vw; -webkit-border-radius:5.333vw;border-radius:5.333vw; box-shadow: 0.800vw 0.800vw 1.600vw 0 black;
+	-moz-transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+.btn.js-footer-skip.active{bottom: 22.133vw;
+	-webkit-transition: all .4s ease 0s;
+	-moz-transition: all .4s ease 0s;
+	-ms-transition: all .4s ease 0s;
+	-o-transition: all .4s ease 0s;
+	transition: all .4s ease 0s;
+}
+
+
+
+
+
+.btn.more{display: block;text-align: center;padding: 2.93333vw 0; font-size: 3.2vw;line-height: 1.5; letter-spacing: -0.72px; color: var(--white);text-decoration: none;}
+.btn.more span{display: inline-block;padding-right: 3.46666vw; background: url('../images/com/icon_more.svg') 100% 53% no-repeat;-webkit-background-size: 1.33333vw auto;background-size: 1.33333vw auto;}
+
+.btn.close{width: 4.26666vw;height: 4.26666vw;background: url('../images/com/btn_close.svg') 0 0 no-repeat;-webkit-background-size: cover;
+background-size: cover;}
+
+.btn.page-close{width: 12.267vw;height: 12.267vw;margin-right: -4vw;background: url(../images/com/btn_close.svg) 50% 50% no-repeat;-webkit-background-size: 4.267vw auto;background-size: 4.267vw auto;}
+
+.btn.write{display: inline-block;position: fixed;right: 4vw;bottom: 21.867vw;width: 16vw;height: 16vw;background: var(--sand) url('../images/com/icon_write.svg') 50% 50% no-repeat;-webkit-background-size: 7.2vw auto;background-size: 7.2vw auto;box-shadow: 3px 3px 6px 0 rgba(0, 0, 0, 0.3);border-radius: 50% !important;-webkit-border-radius: 50% !important;}
+
+.btn.back{width: 9.6vw;height: 12.267vw;background: url('../images/com/btn_back.svg') 50% 50% no-repeat;-webkit-background-size: 1.6vw auto;background-size: 1.6vw auto;}
+/*.btn.recommend{width: 21.867vw;height: 9.6vw;background: url('../images/com/btn_recommend.svg') 0 0 no-repeat;-webkit-background-size: contain;background-size: contain;}
+.btn.recommend.active{background: url('../images/com/btn_recommend_active.svg') 0 0 no-repeat;-webkit-background-size: contain;background-size: contain;}
+.btn.share{width: 21.867vw;height: 9.6vw;background: url('../images/com/btn_share.svg') 0 0 no-repeat;-webkit-background-size: contain;background-size: contain;}
+.btn.report{width: 21.867vw;height: 9.6vw;background: url('../images/com/btn_report.svg') 0 0 no-repeat;-webkit-background-size: contain;background-size: contain;}*/
+.btn.more02{width: 4vw;height: 4vw;background: url('../images/com/btn_more.svg') 100% 50% no-repeat;-webkit-background-size: 0.8vw auto;background-size: 0.8vw auto;border-radius: 0;}
+
+.btn em{font-size: 2.133vw;font-weight: 600;vertical-align: middle;font-family: Montserrat;}
+.btn strong{font-size: 4.800vw;font-weight: 600;vertical-align: middle;font-family: Montserrat;}
+
+.btn.setting{width: 4vw;height: 4vw;background: url('../images/com/btn_setting.svg') 50% 50% no-repeat;-webkit-background-size: 4vw auto;background-size: 4vw auto;}
+.btn.aside{width: 3.733vw;height: 3.733vw;background: url('../images/com/btn_aside.svg') 50% 50% no-repeat;-webkit-background-size: 3.733vw auto;background-size: 3.733vw auto;}
+
+.btn-rule{float: right;margin: 0.267vw 0;font-size: 3.2vw;line-height: 1.5;color: var(--white);opacity: 0.5;border-bottom: 1px solid var(--white);}
+.btn.close{position: absolute;top: 0;right: 0;width: 13.333vw;height: 13.333vw;-webkit-background-size: 4.8vw auto;background-size: 4.8vw auto;background-position: 50% 50%;}
+
+.btn-area.fixed{position: fixed;bottom: 0;left: 0;right: 0;}
+
+/* 버튼내 아이콘 마진 */
+.btn.medium-x .ico{margin-right: 2.133vw;}
+.btn.large .ico{margin-right: 1.067vw;}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:#fff;stroke-miterlimit:10}
+        </style>
+    </defs>
+    <g id="icon" transform="translate(-347 -51)">
+        <g id="타원_139" fill="none" stroke="#fff" transform="translate(347 51)">
+            <circle cx="8" cy="8" r="8" stroke="none"/>
+            <circle cx="8" cy="8" r="7.5"/>
+        </g>
+        <g id="btn_close" transform="translate(243.509 9.928)">
+            <path id="선_10" d="M0 6L6 0" class="cls-2" transform="translate(108.491 46.072)"/>
+            <path id="선_11" d="M6 6L0 0" class="cls-2" transform="translate(108.491 46.072)"/>
+        </g>
+    </g>
+</svg>

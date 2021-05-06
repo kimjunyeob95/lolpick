@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+    <defs>
+        <linearGradient id="linear-gradient" x2="1" y1=".5" y2=".5" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#2e60f7"/>
+            <stop offset=".517" stop-color="#1d3c99"/>
+            <stop offset="1" stop-color="#2e60f7"/>
+        </linearGradient>
+        <style>
+            .cls-1{fill:url(#linear-gradient)}
+        </style>
+    </defs>
+    <g id="team_icon">
+        <g id="그룹_9" transform="translate(0 .047)">
+            <path id="패스_14" d="M52.455 28.565L31.613 49.372v2.114l22.96-22.922z" class="cls-1" transform="translate(-31.613 -28.565)"/>
+            <path id="패스_15" d="M56.573 28.565L31.613 53.44v2.111l27.078-26.986z" class="cls-1" transform="translate(-31.613 -28.565)"/>
+            <path id="패스_16" d="M35.928 57.706l24.885-24.8V30.8l-27 26.911z" class="cls-1" transform="translate(-30.814 -27.753)"/>
+            <path id="패스_17" d="M38.875 56.684l20.867-20.833v-2.114L36.757 56.684z" class="cls-1" transform="translate(-29.742 -26.731)"/>
+            <path id="패스_18" d="M60.566 28.565l-28.953 28.86v1.093h1.021l28.979-28.886v-1.067z" class="cls-1" transform="translate(-31.613 -28.565)"/>
+        </g>
+        <path id="패스_19" fill="#5a8dff" d="M43.044 28.565H31.613v11.394l18.569 18.559h11.431V47.123z" transform="translate(-31.613 -28.565)"/>
+    </g>
+</svg>

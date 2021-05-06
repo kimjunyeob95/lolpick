@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+:root {
+	--dark: #1d2027;
+	--desert: #d0a85c;
+	--white: #fff;
+	--slate-grey: #62666d;
+	--slate-grey-2: #68696b;
+	--sand: #dcb067;
+	--charcoal-grey: #292b32; /*#292c33 - 디자인팀 비교 요청*/
+	--warm-grey: #707070;
+	--dark-2: #15151d;
+	--almost-black: #070a14;
+	--dark-grey: #26282b;
+	--black: #000;
+	--greyish: #aeaeae;
+	--dark-grey-2: #303131;
+	--charcoal-grey-2: #36383d;
+	--charcoal-grey-3: #46484c;
+}

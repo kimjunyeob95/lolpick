@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+body{
+	margin:0;
+	padding:0;
+}
+
+/* skip-nav */
+.skip-nav{position:relative;z-index:2000;}
+.skip-nav a{position: absolute;top: -2rem;left: 0;width:50%;height:2rem;background: #333;color:var(--white);text-align: center;}
+.skip-nav a:active,
+.skip-nav a:focus{top: 0;text-decoration:none;z-index: 1000;}
+
+/* layout */
+#container{width:100%;min-height:100%;}
+#header,
+#menu{
+	display: -ms-flexbox;display: -webkit-flex;display: flex;
+	-webkit-justify-content: space-between;-ms-flex-pack: justify;justify-content: space-between;
+	-webkit-align-items: center;-ms-flex-align: center;align-items: center;
+	box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	z-index:10;
+
+	-webkit-transition: all .4s ease 0s;
+	-moz-transition: all .4s ease 0s;
+	-ms-transition: all .4s ease 0s;
+	-o-transition: all .4s ease 0s;
+	transition: all .4s ease 0s;
+}
+#header{height:12.267vw;padding: 0 4vw;}
+#header.fixed{position:fixed;width:100%;background: var(--almost-black);}
+#header .logo{display:block;width:58.667vw;height:5.333vw;background: transparent url('../images/com/scoreoflegends-logo_2@3x.png') no-repeat  50% 50%;background-size:contain;}
+#header .header-nav{min-width:8.533vw;}
+#header .header-nav.left{
+	-webkit-order: -1;
+	-ms-flex-order: -1;
+	order: -1;
+}
+#header .btn.store{width:7.733vw;height:7.467vw;background: transparent url('../images/com/btn_store.svg') no-repeat 50% 0;background-size:7.733vw auto;}
+#header h1{font-size: 4.267vw;letter-spacing: -0.22399vw;}
+#header h1 span{font-family: Montserrat;font-weight: 500;letter-spacing: -0.07466vw;}
+#menu{position:fixed;bottom:0;left:0;width:100%;height:14.400vw;padding: 0 4.267vw;background:var(--almost-black);
+}
+#menu .btn{display:block;}
+#menu .btn:not(.pick){width:12.800vw;height:12.800vw;}
+#menu .btn.home{background: transparent url('../images/com/icon_home.svg') no-repeat  50% 50%;background-size:5.600vw auto;}
+#menu .btn.talk{background: transparent url('../images/com/icon_com.svg') no-repeat  50% 50%;background-size:5.600vw auto;}
+#menu .btn.pick{position:relative;top:-3.733vw;width:15.467vw;height:15.467vw;background: #dcb067 url('../images/com/icon_pick.svg') no-repeat 50% 50%;border-radius:7.733vw;border:1.333vw solid #070a14;background-size: auto 5.867vw;}
+#menu .btn.rank{background: transparent url('../images/com/icon_ranking.svg') no-repeat  50% 50%;background-size:5.600vw auto;}
+#menu .btn.my{background: transparent url('../images/com/icon_my.svg') no-repeat  50% 50%;background-size: auto 5.600vw;}
+
+#menu .btn.home.active{background-image: url('../images/com/icon_home_active.svg');}
+#menu .btn.talk.active{background-image: url('../images/com/icon_com_active.svg');}
+#menu .btn.pick.active{background-image: url('../images/com/icon_pick_active.svg');}
+#menu .btn.rank.active{background-image: url('../images/com/icon_ranking_active.svg');}
+#menu .btn.my.active{background-image: url('../images/com/icon_my_active.svg');}
+
+#content.header-fixed{padding-top:12.267vw;}
+
+/* popup */
+.overlay {position:fixed;top:0;bottom:0;left:0;right:0;background: rgba(0, 0, 0, 0.8);visibility:hidden;opacity: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	-webkit-transition: opacity 500ms;
+	-moz-transition: opacity 500ms;
+	-ms-transition: opacity 500ms;
+	-o-transition: opacity 500ms;
+	transition: opacity 500ms;
+	z-index:-1;
+}
+.overlay.active{visibility: visible;opacity: 1;overflow-y: auto;z-index: 99;}
+.popup{position:relative;width:92%;background-color: var(--charcoal-grey-2);border-radius: 1.6vw;}
+.popup-header{display:block;margin: 0 1.6vw;padding:5.600vw 0 4.933vw;border-bottom: solid 1px #41454d;}
+.popup-header h2{line-height: 1.5;text-align: center;font-size: 4.267vw;}
+.popup-body{height:calc(100% - 8vw);overflow-y:auto;padding:0 4vw 11.2vw;}
+button{-webkit-appearance:none;display:inline-block;text-align:center;white-space:nowrap;vertical-align:middle;cursor:pointer;border: 0 none;padding:0;outline: none;}
+.btn-close{position:absolute;top: 2.933vw;right: 1.333vw;width:12.267vw;height:12.267vw;background: url(../images/com/btn_close.svg) 50% 50% no-repeat;
+    -webkit-background-size: 4.267vw auto;background-size: 4.267vw auto;font-size: 1px;text-indent: -999px;}
+.popup-body .box-wrap:not(.search){padding-top:0;}

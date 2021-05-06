@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="82" height="36" viewBox="0 0 82 36">
+    <defs>
+        <style>
+            .cls-3,.cls-7{fill:none}.cls-3{stroke:#707070}.cls-6{stroke:none}
+        </style>
+    </defs>
+    <g id="btn_신고" transform="translate(-18 -515)">
+        <g id="사각형_91" fill="none" stroke="#36383d" transform="translate(18 515)">
+            <rect width="82" height="36" class="cls-6" rx="18"/>
+            <rect width="81" height="35" x=".5" y=".5" class="cls-7" rx="17.5"/>
+        </g>
+        <g id="icon" transform="translate(19.992 2.024)">
+            <path id="패스_394" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" d="M825.192 2421.49h13" transform="translate(-807.184 -1883.514)"/>
+            <g id="사각형_92" class="cls-3">
+                <path d="M6.5 0A6.5 6.5 0 0 1 13 6.5V13H0V6.5A6.5 6.5 0 0 1 6.5 0z" class="cls-6" transform="translate(18.008 522.976)"/>
+                <path d="M6.5.5a6 6 0 0 1 6 6v5.939a.061.061 0 0 1-.061.061H.561a.061.061 0 0 1-.061-.061V6.5a6 6 0 0 1 6-6z" class="cls-7" transform="translate(18.008 522.976)"/>
+            </g>
+            <g id="사각형_93" class="cls-3">
+                <path d="M6.5 0A6.5 6.5 0 0 1 13 6.5V13H0V6.5A6.5 6.5 0 0 1 6.5 0z" class="cls-6" transform="translate(18.008 522.976)"/>
+                <path d="M6.5.5a6 6 0 0 1 6 6v5.939a.061.061 0 0 1-.061.061H.561a.061.061 0 0 1-.061-.061V6.5a6 6 0 0 1 6-6z" class="cls-7" transform="translate(18.008 522.976)"/>
+            </g>
+            <path id="패스_406" fill="none" stroke="#8e9093" d="M44.5 527.215a3.47 3.47 0 0 0-3.25 3.544" transform="translate(-19.992 -1.024)"/>
+        </g>
+        <text id="신고" fill="#fff" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="12px" letter-spacing="-0.06em" opacity="0.5" transform="translate(59 538)">
+            <tspan x="0" y="0">신고</tspan>
+        </text>
+    </g>
+</svg>

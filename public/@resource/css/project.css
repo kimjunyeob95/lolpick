@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/* hanbom.com _ project _ Kimjuyeon _ 20200923 */
+
+/* reset : normalize or reset */
+@import url(_base.css);
+@import url(lib/swiper-bundle.css);
+@import url(_font.css);
+@import url(_color.css);
+@import url(_layout.css);
+@import url(_button.css);
+@import url(_form.css);
+@import url(_global.css);
+/* library
+@import url(lib/jquery-ui.css);
+@import url(lib/jquery-ui-custom.css);
+@import url(lib/swiper-custom.css);
+*/
+
+/* defult */
+html, body{width:100%;height:100%;}
+
+
+/* MAIN */
+#content.main {padding-bottom:24.533vw;}
+#content.main .deco-line{margin-left:-4vw;margin-right:-4vw;}
+#swiperMatch .item.match:first-child{}
+#swiperMatch .item.match + .item.match{border-top:1px solid rgba(255, 255, 255, .1);}
+#swiperMatch .swiper-pagination{position: relative;bottom:auto;margin:5.333vw 0;}
+#content.main .edge-box{margin-top:8vw;}
+
+/* MAT_01*/
+#content.match{padding-top:5.333vw;}
+#content.match .rules{margin-top:3.733vw;}
+#content.match .analysis{margin-top:10.667vw;}
+#content.match .analysis::after{content: '';display: block;clear: both;height: 0;visibility: hidden;}
+#content.match .analysis h3{float: left;line-height: 1;padding-bottom: 2.66666vw;}
+#content.match .analysis .tabs{float: right;}
+#content.match .analysis .tabs:not(.dot) li:last-child a{padding-right: 0;}
+
+
+/*MAT_04*/
+#content.match.predict{padding-top: 0;}
+#content.match.predict .deco-line{margin-left:0;margin-right:0;}
+#content.match.predict .game.large{padding-top: 0;}
+.player-box + .team-title{padding-top: 7.467vw;}
+#content.main.predict .tabs.flex{padding-top: 5.067vw;border-top: 1px solid #303131;}
+#content.main.predict .tab-content{padding-top: 4.8vw;}
+#content.main.predict .info-txt.align {padding-bottom: 7.733vw;}
+
+/*COM_01*/
+#content.community.board{padding-top: 5.333vw;}
+#content.main.community{}
+/*#content.main.writing{padding-bottom: 18.667vw;}*/
+#content.main.community .data-list.bbs{padding-top: 3.733vw;}
+#content.community .select{position: absolute;right: 0;top: -7vw;}
+#content.community .tab-content .select + .btn-area{margin-top: 3.733vw;}
+#content.community .tab-content .select + .btn-area .btn.large{font-size: 3.733vw;}
+#content.community .tab-content .btn.large .ico.arr{margin-left: 2.133vw;}
+
+.section.writing{}
+.section.writing .btn-area .btn.dark02{border-bottom-left-radius: 0;border-bottom-right-radius: 0;}
+
+.section.list .btn-wrap{padding-top: 5.333vw;}
+.section.list .btn-area{position: relative;}
+.section.list .btn.close{position: absolute;top: 0;right: 0;width: 13.333vw;height: 13.333vw;-webkit-background-size: 4.8vw auto;background-size: 4.8vw auto;background-position: 50% 50%;}
+.section.list .btn-area.solid{display: none;}
+.section.ranking .title-wrap{padding-top: 2.4vw;padding-bottom: 1.067vw;}
+.predict .game.large > .game-date + .match-set{padding-left: 0;padding-right: 0;}
+.section.complete .match-title.small{padding-top: 5.333vw;}
+
+.predict .info-text{padding-top: 7.733vw;padding-bottom: 10.133vw;font-size: 3.733vw;line-height: 1.71;letter-spacing: -0.075vw;text-align: center;color: var(--white);}
+
+/* MY PAGE */
+.my-page .title-wrap{border-bottom: solid 1px #333333;}
+.section.profile{position: relative;margin-top: 4.8vw;padding: 0 5.333vw 8.533vw;border-radius: 0.533vw;background-color: var(--charcoal-grey-2);}
+.section.profile .btn.setting{position: absolute;top: 6.400vw;right: 5.333vw;}
+.section.profile .profile-wrap{margin-top: 7.2vw;}
+
+.section.my-combo{position: relative;margin-top: 2.133vw;border-radius: 0.533vw;background-color: var(--charcoal-grey-2);}
+.section.my-combo .btn.aside{position: absolute;right: 5.333vw;top: 5.333vw;}
+.my-page .section h3{padding-top: 4.8vw;font-family: Montserrat; font-size: 14px; font-weight: 600;line-height: 1.14; letter-spacing: -0.075vw; color: var(--white);text-align: center;}
+.my-page .section h3 span{font-family: 'Noto Sans KR';}
+.my-page .form-wrap{border-top: 0 none;}
+.my-page .form-wrap .btn-area{padding-top: 8vw;}
+
+/* LOGIN */
+.join .form-wrap{border-top: 0 none;}
+.join .form-wrap .field + .btn-area{padding-top: 26.667vw;margin-left: -4vw;margin-right: -4vw;}
+.log .form-wrap .btn-area .btn.large-2x{}
+
+
+/* pageid1 */
+#pageid1 .classname{}
+@media all and (max-width:640px){
+	#pageid1 .classname{}
+}
+@media all and (min-width:641px){
+	#pageid1 .classname{}
+}
+
+/* pageid2 */
+#pageid2 .classname{}
+@media all and (max-width:640px){
+	#pageid2 .classname{}
+}
+@media all and (min-width:641px){
+	#pageid2 .classname{}
+}
+
+.shortcut.active{margin-bottom:83px;}
+
+

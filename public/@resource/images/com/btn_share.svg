@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="82" height="36" viewBox="0 0 82 36">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round}
+        </style>
+    </defs>
+    <g id="btn_share" transform="translate(-18 -515)">
+        <g id="사각형_91" fill="none" stroke="#36383d" transform="translate(18 515)">
+            <rect width="82" height="36" stroke="none" rx="18"/>
+            <rect width="81" height="35" x=".5" y=".5" rx="17.5"/>
+        </g>
+        <g id="icon" transform="translate(19.992 1.024)">
+            <path id="패스_394" d="M825.192 2415.353v6.137h13v-6.137" class="cls-2" transform="translate(-807.184 -1883.514)"/>
+            <path id="패스_395" fill="none" stroke="#fff" stroke-linecap="round" d="M838.729 2419.287v-8.82" transform="translate(-814.221 -1885.41)"/>
+            <path id="패스_396" d="M833.083 2413.611l2.968-3.284 2.975 3.284" class="cls-2" transform="translate(-811.546 -1885.351)"/>
+        </g>
+        <text id="공유" fill="#fff" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="12px" letter-spacing="-0.06em" transform="translate(59 538)">
+            <tspan x="0" y="0">공유</tspan>
+        </text>
+    </g>
+</svg>

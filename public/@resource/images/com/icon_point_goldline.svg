@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+    <g>
+        <g fill="none" stroke="#dcb067" transform="translate(-384 -660) translate(384 660)">
+            <circle cx="7" cy="7" r="7" stroke="none"/>
+            <circle cx="7" cy="7" r="6.5"/>
+        </g>
+        <text fill="#d0a85c" font-family="Montserrat-Bold, Montserrat" font-size="10px" font-weight="700" letter-spacing="-0.02em" transform="translate(-384 -660) translate(387.9 670.8)">
+            <tspan x="0" y="0">P</tspan>
+        </text>
+    </g>
+</svg>
