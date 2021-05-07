@@ -60,7 +60,7 @@ const Modify = () => {
                     <span className="hypen">-</span>
                     <input type="tel" className="input-text" maxLength="4" />
                     <span className="hypen">-</span>
-                    <input type="tel" className="input-text" maxLength="4" />
+                    <input type="tel" className="input-text" maxLength="3" />
                   </span>
                 </div>
                 <div className="btn-aside right">
