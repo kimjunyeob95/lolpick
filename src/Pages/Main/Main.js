@@ -1,44 +1,19 @@
 import React, { Component } from "react";
+import Header from "../../Components/Header/Header";
+import Nav from "../../Components/Nav/Nav";
+import Footer from "../../Components/Footer/Footer";
+import { Link } from "react-router-dom";
 
 export default class Main extends Component {
   render() {
     return (
       <div>
         <div className="skip-nav">
-          <a href="#content">본문 바로가기</a>
+          <Link to="#content">본문 바로가기</Link>
         </div>
         <div id="container" className="container">
-          <header id="header" className="header">
-            <h1>
-              <a href="MAIN_01.html" className="logo">
-                <span className="blind">LOLPICK</span>
-              </a>
-            </h1>
-            <div className="header-nav left">&nbsp;</div>
-            <div className="header-nav right">
-              <a href="STO_01.html" className="btn store">
-                <span className="blind">STORE</span>
-              </a>
-            </div>
-          </header>
-          <nav id="menu" className="nav">
-            <a className="btn home active" href="MAIN_01.html">
-              <span className="blind">HOME</span>
-            </a>
-            <a className="btn talk" href="COM_01.html">
-              <span className="blind">TALK</span>
-            </a>
-            <a className="btn pick" href="MAT_01.html">
-              <span className="blind">PICK</span>
-            </a>
-            <a className="btn rank" href="RAN_01.html">
-              <span className="blind">RANKING</span>
-            </a>
-            <a className="btn my" href="MY_01.html">
-              <span className="blind">MY</span>
-            </a>
-          </nav>
-
+          <Header />
+          <Nav />
           <div id="content" className="main">
             <h2 className="home-title">예측 중 경기</h2>
             <div className="deco-line ignore-in"></div>
@@ -282,7 +257,7 @@ export default class Main extends Component {
           </div>
           {/* // #content */}
 
-          <footer id="footer" className="footer"></footer>
+          <Footer />
         </div>
         {/* // #container */}
       </div>
